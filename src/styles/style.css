@@ -1,0 +1,44 @@
+#container{
+    padding: 25px;
+    background: #0d1b2a;
+}
+
+button {
+    color: #778da9;
+    cursor: pointer;
+    transition: 0.3s;
+    background: #0d1b2a;
+    border-radius: 10px;
+    border: 0px;
+    margin: 10px
+}
+
+
+
+button#bt1:hover,
+button#bt2:hover,
+button#bt3:hover,
+button#bt4:hover{
+    background: #1b263b;
+    color: #ee6c4d;
+    font-size: 25px;
+}
+
+
+button#btimage{
+    background-image: url("https://i.pinimg.com/564x/18/02/b1/1802b1c4c584368137ee4a9729f701d1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+button#status{
+    box-shadow: 0px 0px 15px #000000;
+    margin-right: 25px;
+}
+
+button#clock{
+    color: #98c1d9;
+    font-size: 30px;
+    margin-right: 25px;
+}
